@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Schedule Meeting{% endblock %}
+
+{% block content %}
+<h2>Schedule a Meeting</h2>
+<form action="/meeting/schedule" method="post">
+  <label>Student ID:</label>
+  <input name="student_id" required>
+
+  <label>Faculty ID:</label>
+  <input name="faculty_id" required>
+
+  <label>Date (YYYY-MM-DD):</label>
+  <input name="date" required>
+
+  <label>Time (HH:MM):</label>
+  <input name="time" required>
+
+  <label>AM/PM:</label>
+  <select name="time_format">
+    <option value="AM">AM</option>
+    <option value="PM">PM</option>
+  </select>
+
+  <button type="submit">Schedule</button>
+</form>
+{% endblock %}

@@ -1,0 +1,18 @@
+
+
+{% extends "base.html" %}
+{% block title %}Post Project{% endblock %}
+
+{% block content %}
+  <h2>Post New Project</h2>
+  <form action="/project/post" method="post">
+    <input name="title" placeholder="Project Title" required><br><br>
+    <textarea name="description" placeholder="Project Description" required></textarea><br><br>
+    <input name="slots" type="number" placeholder="Number of Slots Available" required><br><br>
+    <input name="faculty_id" placeholder="Faculty ID" required><br><br>
+    <input name="faculty_name" placeholder="Faculty Name" required><br><br> <!-- ✅ Added -->
+    <button type="submit">Create Project</button>
+  </form>
+  
+{% endblock %}
+

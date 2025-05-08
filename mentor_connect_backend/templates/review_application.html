@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Review Application{% endblock %}
+
+{% block content %}
+<h2>Applications Submitted to Your Projects</h2>
+
+{% if applications %}
+  <ul>
+    {% for a in applications %}
+      <li>
+        <strong>Application ID:</strong> {{ a.id }}<br>
+        <strong>Student ID:</strong> {{ a.student_id }}<br>
+        <strong>Project ID:</strong> {{ a.project_id }}<br>
+        <strong>Status:</strong> {{ a.status }}<br>
+        <strong>Feedback:</strong> {{ a.feedback or 'N/A' }}<br>
+        <a href="{{ a.pdf_url }}" target="_blank">📄 View Statement of Interest</a>
+      </li>
+      <hr>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No applications found for your projects.</p>
+{% endif %}
+
+<h2>Review an Application</h2>
+<form action="/application/review/faculty/{{ faculty_id }}" method="post">
+  <input name="id" placeholder="Application ID to Review" required><br><br>
+  <select name="status" required>
+    <option value="Approved">Approve</option>
+    <option value="Rejected">Reject</option>
+  </select><br><br>
+  <textarea name="feedback" placeholder="Feedback (optional)"></textarea><br><br>
+  <button type="submit">Submit Review</button>
+</form>
+{% endblock %}

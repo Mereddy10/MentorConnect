@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}My Project Applications{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+  <h2 class="mb-4">Applications Submitted to Your Projects</h2>
+
+  {% if applications %}
+    {% for a in applications %}
+      <div class="card mb-4 shadow-sm">
+        <div class="card-body">
+          <p><strong>Application ID:</strong> {{ a.id }}</p>
+          <p><strong>Student ID:</strong> {{ a.student_id }}</p>
+          <p><strong>Project ID:</strong> {{ a.project_id }}</p>
+          <p><strong>Status:</strong> {{ a.status }}</p>
+          <p><strong>Feedback:</strong> {{ a.feedback or 'N/A' }}</p>
+          {% if a.pdf_url %}
+            <a href="{{ a.pdf_url }}" class="btn btn-outline-primary" target="_blank">📄 View SOI</a>
+          {% else %}
+            <p><em>No PDF submitted.</em></p>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  {% else %}
+    <p>No applications found for your projects.</p>
+  {% endif %}
+</div>
+{% endblock %}

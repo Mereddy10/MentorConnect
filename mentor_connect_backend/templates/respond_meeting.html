@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Respond to Meeting{% endblock %}
+{% block content %}
+  <h2>Respond to Meeting</h2>
+  <form action="/meeting/respond" method="post">
+    <input name="id" placeholder="Meeting ID to respond to" required>
+
+    <label>Status:</label>
+    <select name="status" required>
+      <option value="Accepted">Accept</option>
+      <option value="Rejected">Reject</option>
+      <option value="Reschedule">Suggest New Time</option>
+    </select>
+
+    <label>Mode (if accepted):</label>
+    <select name="mode">
+      <option value="">None</option>
+      <option value="Online">Online</option>
+      <option value="Offline">Offline</option>
+    </select>
+
+    <label>New Date (if rescheduling):</label>
+    <input type="text" name="new_date" placeholder="yyyy-mm-dd">
+
+    <label>New Time:</label>
+    <input name="new_time" placeholder="e.g. 4:00">
+    <select name="time_format">
+      <option value="AM">AM</option>
+      <option value="PM">PM</option>
+    </select>
+
+    <textarea name="message" placeholder="Message to student (optional)"></textarea>
+
+    <button type="submit">Submit Response</button>
+  </form>
+{% endblock %}

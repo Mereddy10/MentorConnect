@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}Project Application{% endblock %}
+
+{% block content %}
+  <h2>Available Projects</h2>
+  <ul id="project-list"></ul>
+
+  <script>
+    fetch('/project/available')
+      .then(response => response.json())
+      .then(data => {
+        const list = document.getElementById('project-list');
+        if (data.length === 0) {
+          list.innerHTML = "<li>No projects available currently.</li>";
+        }
+        data.forEach(p => {
+          const li = document.createElement('li');
+          li.innerHTML = `
+            <strong>${p.title}</strong><br>
+            ${p.description}<br>
+            <em>Faculty: ${p.faculty_name} (ID: ${p.faculty_id})</em><br>
+          `;
+          list.appendChild(li);
+        });
+      });
+  </script>
+
+  <form action="/application/submit" method="post" enctype="multipart/form-data">
+    <h2>Apply to a Project</h2>
+    <input name="student_id" placeholder="Your Student ID" required><br><br>
+    <input name="project_id" placeholder="Project ID" required><br><br>
+    
+    <label>Upload Statement of Interest (PDF):</label><br>
+    <input type="file" name="soi_pdf" accept=".pdf" required><br><br>
+    <button type="submit">Apply</button>
+  </form>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}My Meetings{% endblock %}
+
+{% block content %}
+<h2>My Scheduled Meetings</h2>
+
+{% for m in meetings %}
+  <div class="card">
+    <p><strong>Faculty ID:</strong> {{ m.faculty_id }}</p>
+    <p><strong>Date:</strong> {{ m.date }}</p>
+    <p><strong>Time:</strong> {{ m.time }} {{ m.time_format }}</p>
+    <p><strong>Status:</strong> {{ m.status }}</p>
+    {% if m.mode %}
+    <p><strong>Mode:</strong> {{ m.mode }}</p>
+    {% endif %}
+    {% if m.faculty_message %}
+    <p><strong>Faculty Message:</strong> {{ m.faculty_message }}</p>
+    {% endif %}
+  </div>
+{% endfor %}
+{% endblock %}

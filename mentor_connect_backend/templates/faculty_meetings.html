@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block title %}Fcaulty meeting{% endblock %}
+{% block content %}
+  <h2>Faculty Meeting Requests</h2>
+
+  {% for m in meetings %}
+    <div class="card">
+      <p><strong>Student ID:</strong> {{ m.student_id }}</p>
+<p><strong>Student Name:</strong> {{ m.student_name }}</p>
+<p><strong>Project Title:</strong> {{ m.project_title }}</p>
+<p><strong>Meeting Reason:</strong> {{ m.description }}</p>
+
+
+      <p><strong>Date:</strong> {{ m.date }}</p>
+      <p><strong>Time:</strong> {{ m.time }} {{ m.time_format }}</p>
+      <p><strong>Status:</strong> {{ m.status }}</p>
+
+      <form action="/meeting/faculty/{{ m.faculty_id }}" method="post">
+        <input type="hidden" name="meeting_id" value="{{ m.id }}">
+
+        <label>Action:</label><br>
+        <select name="status" required>
+          <option value="Accepted">Accept</option>
+          <option value="Rejected">Reject</option>
+          <option value="Reschedule">Suggest New Time</option>
+        </select><br><br>
+
+        <label>Mode (if Accepted):</label><br>
+        <select name="mode">
+          <option value="">None</option>
+          <option value="Online">Online</option>
+          <option value="Offline">Offline</option>
+        </select><br><br>
+
+        <label>New Date (if Rescheduling):</label><br>
+        <input type="text" name="new_date" placeholder="YYYY-MM-DD"><br><br>
+
+        <label>New Time:</label><br>
+        <input type="text" name="new_time" placeholder="HH:MM"><br>
+        <select name="time_format">
+          <option value="AM">AM</option>
+          <option value="PM">PM</option>
+        </select><br><br>
+
+        <label>Message (optional):</label><br>
+        <textarea name="message" placeholder="Write a message to student"></textarea><br><br>
+
+        <button type="submit">Submit Response</button>
+      </form>
+    </div>
+  {% endfor %}
+{% endblock %}
