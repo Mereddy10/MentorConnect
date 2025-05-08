@@ -8,8 +8,10 @@ Designed to streamline academic project management and mentorship, MentorConnect
 ---
 ## Documents
 [Statement of Work (SOW).pdf](https://github.com/user-attachments/files/20113007/Statement.of.Work.SOW.pdf)
-[Uploading[MentorConnect_SDD.pdf](https://github.com/user-attachments/files/20113009/MentorConnect_SDD.pdf)
-SRS-Mentor_Connect.pdf…]()
+[SRS-Mentor_Connect.pdf](https://github.com/user-attachments/files/20113012/SRS-Mentor_Connect.pdf)
+[MentorConnect_SDD.pdf](https://github.com/user-attachments/files/20113016/MentorConnect_SDD.pdf)
+
+---
 
 ## ✨ Key Features & Descriptions
 
