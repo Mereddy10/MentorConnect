@@ -9,10 +9,26 @@ Designed to streamline academic project management and mentorship, MentorConnect
 
 ## ✨ Key Features & Descriptions
 
-### 🔑 User Authentication (JWT-Based)
-Secure login system for both students and faculty with role-based access:
-- Students can access application and scheduling features.
-- Faculty can manage projects and review student actions.
+### Key Features
+JWT Authentication – Secure login with role-based access for students and faculty.
+
+Project Management – Faculty can post projects; students can apply with PDF-based SOI.
+
+Slot Handling – Auto-disables applications once project slots are filled.
+
+Application Review – Faculty can accept, reject, or give feedback on student applications.
+
+Meeting Scheduler – Students can request meetings; faculty can respond or reschedule.
+
+In-App Notifications – Real-time alerts for applications, meetings, and updates.
+
+User Profiles – Dedicated profiles showing academic and personal info.
+
+AWS S3 Integration – Secure cloud storage for SOIs and reports.
+
+Smart UI Logic – Prevents duplicate actions; real-time feedback with disabled buttons.
+
+Clean Role-Based Interface – Users only see relevant features based on their role.
 
 ---
 
