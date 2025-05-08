@@ -77,12 +77,12 @@ Secure login system for both students and faculty with role-based access:
 - git clone https://github.com/Mereddy10/mentorconnect.git
 - cd mentorconnect
 
-###Frontend Setup
+### Frontend Setup
 - cd mentorconnect
 - flutter pub get
 - flutter run
 
-###Backend Setup (Flask + AWS S3 + SQLite)
+### Backend Setup (Flask + AWS S3 + SQLite)
 - cd mentor_connect_backend
 - pip install -r requirements.txt
 - python3 run.py
