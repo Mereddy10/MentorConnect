@@ -1,7 +1,9 @@
 
 # 📘 MentorConnect
 
-MentorConnect is a comprehensive student-faculty project management app designed for Mahindra University. It simplifies project allocation, application tracking, file submission, and meeting scheduling. Built using **Flutter (frontend)**, **Flask (backend)**, **AWS S3 (document storage)**, and **PostgreSQL/MySQL (database)**, the system supports seamless collaboration and communication.
+MentorConnect is a cross-platform student-faculty collaboration platform developed by final-year engineering students at Mahindra University.
+
+Designed to streamline academic project management and mentorship, MentorConnect enables a structured, transparent, and efficient digital workflow between students and faculty. From project discovery to application, meeting scheduling, and feedback, every interaction is centralized in one seamless interface.
 
 ---
 
@@ -103,15 +105,18 @@ Secure login system for both students and faculty with role-based access:
 
 Developed by the MentorConnect Team @ Mahindra University
 
-| Name                   | Roll No       | Email                                        | Contributions                         |
-|------------------------|---------------|----------------------------------------------|---------------------------------------|
-| B Shriya Reddy         | SE22UCSE045   | se22ucse045@mahindrauniversity.edu.in        | UI Design, Flutter Development        |
-| Devidi Snehitha Reddy  | SE22UCSE079   | se22ucse079@mahindrauniversity.edu.in        | Backend Integration, API Handling     |
-| Kota Deekshitha        | SE22UCSE142   | se22ucse142@mahindrauniversity.edu.in        | Database Design, Testing              |
-| Marepally Mahathi      | SE22UCSE163   | se22ucse163@mahindrauniversity.edu.in        | Documentation, UI Testing             |
-| Mereddy Sahasra        | SE22UCSE169   | se22ucse169@mahindrauniversity.edu.in        | Full Stack Dev, AWS, Notification Sys |
-| Eega Akshasreee        | SE22UCSE318   | se22ucse318@mahindrauniversity.edu.in        | Frontend Support, User Flow Design    |
-| Kaluvai Dishitha       | SE22UCSE322   | se22ucse322@mahindrauniversity.edu.in        | Project Coordination, Testing Support |
+## 👨‍💻 Team Members & Contributions
+
+| Name                  | Roll No         | Contribution Description                                  |
+|-----------------------|-----------------|-----------------------------------------------------------|
+| Mereddy Sahasra       | SE22UCSE169     | Frontend & Backend (S3 upload, dashboards)                |
+| Marepally Mahathi     | SE22UCSE163     | Backend (API testing, meetings, models)                   |
+| Eega Akshasreee       | SE22UCSE318     | Backend (notifications, projects, HTML logic)             |
+| Kaluva Dishitha       | SE22UCSE322     | Frontend Integration (Login/Welcome/Register screens)     |
+| Kota Deekshitha       | SE22UCSE142     | Project-related frontend                                  |
+| B Shriya Reddy        | SE22UCSE045     | Meeting-related frontend                                  |
+| Devidi Snehitha Reddy | SE22UCSE079     | Notification & profile screens frontend                   |
+
 
 
 
