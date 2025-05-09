@@ -33,11 +33,11 @@ Application Review – Faculty can accept, reject, or give feedback on student a
 
 Meeting Scheduler – Students can request meetings; faculty can respond or reschedule.
 
-In-App Notifications – Real-time alerts for applications, meetings, and updates.
+In-App Notifications – Alerts for applications, meetings, and updates.
 
 User Profiles – Dedicated profiles showing academic and personal info.
 
-AWS S3 Integration – Secure cloud storage for SOIs and reports.
+AWS S3 Integration – Secure cloud storage for SOIs.
 
 Smart UI Logic – Prevents duplicate actions; real-time feedback with disabled buttons.
 
