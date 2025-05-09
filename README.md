@@ -1,9 +1,12 @@
 
 # 📘 MentorConnect
 
-MentorConnect is a cross-platform student-faculty collaboration platform developed by final-year engineering students at Mahindra University.
+MentorConnect is a cross-platform app designed to simplify student-faculty collaboration.
+It helps students discover faculty-led projects, apply with a statement of interest, and schedule meetings—all in one place.
+We built this out of a real need we faced as students: the lack of a structured, transparent way to connect with mentors.
+No more missed emails or unclear processes—just seamless mentorship.
 
-Designed to streamline academic project management and mentorship, MentorConnect enables a structured, transparent, and efficient digital workflow between students and faculty. From project discovery to application, meeting scheduling, and feedback, every interaction is centralized in one seamless interface.
+Our goal: Make mentorship easy, efficient, and accessible.
 
 ---
 ## Documents
