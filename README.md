@@ -14,8 +14,8 @@ Designed to streamline academic project management and mentorship, MentorConnect
 ---
 ## Video Presentations
 
-🎥 [Watch Presentation Video on Google Drive] https://drive.google.com/file/d/196nBspi6mdN8DLiY6so_qtTep7efezaZ/view?usp=sharing
-🎥 [Watch App Demo Video on Google Drive]
+🎬 [Watch Presentation Video on Google Drive](https://drive.google.com/file/d/196nBspi6mdN8DLiY6so_qtTep7efezaZ/view?usp=sharing)
+
 ---
 
 ## ✨ Key Features & Descriptions
