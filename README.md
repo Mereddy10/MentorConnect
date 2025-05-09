@@ -68,7 +68,7 @@ Clean Role-Based Interface – Users only see relevant features based on their r
    Request meetings with selected faculty. Students choose available slots from a calendar-based UI.
 
 5. **Notifications**  
-   Receive real-time alerts for:
+   Receive alerts for:
    - Application status (approved/rejected)
    - Feedback updates
    - Meeting reminders
@@ -77,17 +77,17 @@ Clean Role-Based Interface – Users only see relevant features based on their r
    Students can check meeting details, reschedules, and faculty feedback.
 
 7. **Profile Management**  
-   Edit name, branch, email, phone number, and DOB in your profile section.
+   Edit name, branch, email, phone number, and DOB in the profile section etc
 
 ---
 
 ### 👨‍🏫 Faculty Module
 
 1. **Post Projects**  
-   Faculty can post new project topics, define the number of available slots, and add descriptions and prerequisites.
+   Faculty can post new project topics, define the number of available slots, and add descriptions.
 
 2. **Manage Applications**  
-   View students who have applied to your projects. Approve, reject, or request more info with one click.
+   View students who have applied to your projects. Approve, reject, or provide feedback with one click.
 
 3. **Upload Feedback on Documents**  
    View student-submitted PDFs (proposal/reports) and share feedback or comments.
@@ -102,7 +102,7 @@ Clean Role-Based Interface – Users only see relevant features based on their r
    Receive alerts when a student applies for a project or schedules a meeting.
 
 7. **Faculty Profile**  
-   Faculty can update designation, experience, email, and view students under their mentorship.
+   Faculty can update designation, experience, email, projects etc.
 
 ---
 
