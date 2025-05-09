@@ -17,6 +17,9 @@ Our goal: Make mentorship easy, efficient, and accessible.
 
 [MentorConnect_SDD.pdf](https://github.com/user-attachments/files/20113016/MentorConnect_SDD.pdf)
 
+[Test Plan.excel]([Book1.xlsx](https://github.com/user-attachments/files/20115562/Book1.xlsx)
+
+
 ---
 ## Video Presentations
 
