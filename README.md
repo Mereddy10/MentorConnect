@@ -10,6 +10,7 @@ Our goal: Make mentorship easy, efficient, and accessible.
 
 ---
 ## Documents
+
 [Statement of Work (SOW).pdf](https://github.com/user-attachments/files/20113007/Statement.of.Work.SOW.pdf)
 
 [SRS-Mentor_Connect.pdf](https://github.com/user-attachments/files/20113012/SRS-Mentor_Connect.pdf)
@@ -21,11 +22,15 @@ Our goal: Make mentorship easy, efficient, and accessible.
 
 🎬 [Watch Presentation Video on Google Drive](https://drive.google.com/file/d/196nBspi6mdN8DLiY6so_qtTep7efezaZ/view?usp=sharing)
 
+
+
+
 ---
 
 ## ✨ Key Features & Descriptions
 
 ### Key Features
+
 JWT Authentication – Secure login with role-based access for students and faculty.
 
 Project Management – Faculty can post projects; students can apply with PDF-based SOI.
@@ -72,7 +77,7 @@ Clean Role-Based Interface – Users only see relevant features based on their r
    Students can check meeting details, reschedules, and faculty feedback.
 
 7. **Profile Management**  
-   Edit name, branch, CGPA, email, phone number, and DOB in your profile section.
+   Edit name, branch, email, phone number, and DOB in your profile section.
 
 ---
 
