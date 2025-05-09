@@ -2,9 +2,9 @@
 # 📘 MentorConnect
 
 MentorConnect is a cross-platform app designed to simplify student-faculty collaboration.
-It helps students discover faculty-led projects, apply with a statement of interest, and schedule meetings—all in one place.
+It helps students discover faculty-led projects, apply with a statement of interest, and schedule meetings, all in one place.
 We built this out of a real need we faced as students: the lack of a structured, transparent way to connect with mentors.
-No more missed emails or unclear processes—just seamless mentorship.
+No more missed emails or unclear processes, just seamless mentorship.
 
 Our goal: Make mentorship easy, efficient, and accessible.
 
