@@ -1,4 +1,4 @@
-[SRS-Mentor_Connect.pdf](https://github.com/user-attachments/files/20113008/SRS-Mentor_Connect.pdf)
+
 # 📘 MentorConnect
 
 MentorConnect is a cross-platform student-faculty collaboration platform developed by final-year engineering students at Mahindra University.
@@ -11,6 +11,11 @@ Designed to streamline academic project management and mentorship, MentorConnect
 [SRS-Mentor_Connect.pdf](https://github.com/user-attachments/files/20113012/SRS-Mentor_Connect.pdf)
 [MentorConnect_SDD.pdf](https://github.com/user-attachments/files/20113016/MentorConnect_SDD.pdf)
 
+---
+## Video Presentations
+
+🎥 [Watch Presentation Video on Google Drive] https://drive.google.com/file/d/196nBspi6mdN8DLiY6so_qtTep7efezaZ/view?usp=sharing
+🎥 [Watch App Demo Video on Google Drive]
 ---
 
 ## ✨ Key Features & Descriptions
