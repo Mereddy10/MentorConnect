@@ -137,7 +137,7 @@ Clean Role-Based Interface – Users only see relevant features based on their r
 | Database      | SQLite                                   |
 | Storage       | AWS S3                                   |
 | Auth          | JWT (JSON Web Tokens)                    |
-| Notifications | Firebase Cloud Messaging (FCM)           |
+| Notifications | Custom Flask-based Notification System   |
 
 
 ## 👥 Team
