@@ -140,21 +140,7 @@ Clean Role-Based Interface – Users only see relevant features based on their r
 | Notifications | Custom Flask-based Notification System   |
 
 
-## 👥 Team
 
-Developed by the MentorConnect Team @ Mahindra University
-
-## 👨‍💻 Team Members & Contributions
-
-| Name                  | Roll No         | Contribution Description                                  |
-|-----------------------|-----------------|-----------------------------------------------------------|
-| Mereddy Sahasra       | SE22UCSE169     | Frontend & Backend (S3 upload, dashboards)                |
-| Marepally Mahathi     | SE22UCSE163     | Backend (API testing, meetings, models)                   |
-| Eega Akshasreee       | SE22UCSE318     | Backend (notifications, projects, HTML logic)             |
-| Kaluva Dishitha       | SE22UCSE322     | Frontend Integration (Login/Welcome/Register screens)     |
-| Kota Deekshitha       | SE22UCSE142     | Project-related frontend                                  |
-| B Shriya Reddy        | SE22UCSE045     | Meeting-related frontend                                  |
-| Devidi Snehitha Reddy | SE22UCSE079     | Notification & profile screens frontend                   |
 
 
 
